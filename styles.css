@@ -170,6 +170,16 @@ a{color:inherit}
   color:#536072;
   font-size:1.05rem;
 }
+.current-line{
+  max-width:810px;
+  margin:18px 0 0;
+  padding:13px 15px;
+  border-left:3px solid var(--blue);
+  border-radius:0 10px 10px 0;
+  background:rgba(237,241,255,.75);
+  color:#3f4b61;
+  font-size:.92rem;
+}
 .hero-actions{
   display:flex;
   flex-wrap:wrap;
@@ -470,6 +480,31 @@ a{color:inherit}
 }
 .project-list{padding-left:20px;color:#566174;margin:18px 0 0}
 .project-list li{margin:5px 0}
+.standards-line{
+  margin:18px 0 0!important;
+  color:#c6d0eb!important;
+  font-size:.86rem;
+}
+.project-actions{margin-top:22px}
+.project-actions a{
+  display:inline-flex;
+  align-items:center;
+  min-height:42px;
+  padding:9px 13px;
+  border-radius:10px;
+  border:1px solid #d5dcf0;
+  color:var(--blue);
+  background:#f8faff;
+  text-decoration:none;
+  font-size:.82rem;
+  font-weight:780;
+}
+.project-primary .project-actions a{
+  color:white;
+  border-color:rgba(255,255,255,.2);
+  background:rgba(255,255,255,.08);
+}
+.project-actions a:hover{transform:translateY(-1px)}
 
 .experience-section{background:var(--navy);color:white}
 .experience-section .section-title{color:white}
@@ -661,5 +696,9 @@ footer{
   .experience-dot{display:none}
   .section{padding:72px 0}
   .contact-panel{padding:32px 25px}
+  .hero-actions .btn,.hero-actions .text-link{width:100%;text-align:center;margin-left:0}
+  .project-card{padding:24px 20px}
+  .project-actions a{width:100%;justify-content:center}
+  .contact-actions .btn{width:100%}
   .footer-inner{align-items:flex-start;flex-direction:column}
 }
